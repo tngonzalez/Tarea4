@@ -1,0 +1,146 @@
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body
+{
+    background-size: 210px;
+    background-image: url('images/background.png');
+    box-sizing: border-box;
+
+}
+.cuerpo
+{
+    background-color: white;
+    width: 920px;
+    position: relative;
+    margin: 25px auto;
+    padding: 10px 20px 5px 20px;
+}
+.encabezado
+{
+    background-image: url('images/banner.jpg');
+    height: 250px;
+    width: 880px;
+}
+.encabezado .titulo
+{
+    color: darkgreen; 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+    margin: 0 auto;
+    width: 820px;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.barra .contenedor
+{
+background-color: #488000;
+width: 880px;
+height: 35px;
+margin-bottom: 10px;
+color: #fff;
+}
+.contenedor .links
+{
+color: white;
+text-decoration: none;
+text-align: center;
+border-right: 1px solid #fff;
+float: left;
+padding: 10px 10px 10px 10px;
+}
+
+
+.contenedor .last
+{
+border-right: 0px;
+}
+.seccion
+{
+    width: 200px;
+    text-align: justify;
+    line-height: 15px;
+}
+.parrafoaside
+{
+    word-spacing: -1px;
+    line-height: 1.25;
+
+}
+.parrafo
+{
+    margin-bottom: 14px;
+    text-align: justify;
+    line-height: 1.4;
+}
+.parrafo1
+{
+    margin-bottom: 14px;
+    text-align: justify;
+    line-height: 1.5;
+    word-spacing: 3px;
+}
+
+.info
+{
+    float: left;
+    margin-bottom: 10px;
+}
+
+footer
+{
+    width: 880px;
+    height: 35px;
+    background-color: #488000;
+    color: #fff;    
+}
+
+.contefoot
+{
+    text-align: center;
+}
+.contefoot .link
+{
+   
+color: white;
+text-decoration: none;
+text-align: center;
+border-right: 1px solid #fff;
+text-decoration: underline;
+padding: 0px 5px 0px 5px;
+
+}
+.contefoot .last
+{
+border-right: 0px;
+}
+
+.rana
+{
+    width: 210px;
+    float: left;
+    margin: 0px 14px 3px 0px;
+}
+main #izquierda
+{
+    float: left;
+    position: static;
+    margin: 10px ;
+}
+main .sideWelcome .articulo
+{
+    width: 600px;
+}
+main
+{
+position: relative;
+display: flex;
+}
+
+
